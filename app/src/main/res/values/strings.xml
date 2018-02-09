@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="btn_text">SHOW</string>
+    <string name="btn_login">登陆</string>
+</resources>

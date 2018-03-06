@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Material Design</string>
-    <string name="btn_text">SHOW</string>
+    <string name="btn_text">SHOW SnackBar</string>
     <string name="btn_login">登陆</string>
+    <string name="btn_listView">ListView</string>
+    <string name="list_activity">第一种 ListActivity</string>
+    <string name="list_view_demo">第二种 使用ListView控件</string>
+    <string name="btn_tabLayout">TabLayout</string>
+    <string name="text_nv_title">Ent楠木</string>
+    <string name="text_nv_info">Ta很懒，什么都没写</string>
+    <string name="btn_drawerLayout">DrawerLayout</string>
+    <string name="btn_coordinatorLayout">CoordinatorLayout</string>
+    <string name="btn_collapsingToolBarLayout">CollapsingToolBarLayout</string>
+    <string name="new2018">2018新年快乐，快来看看2018有什么新鲜事儿</string>
+    <string name="btn_behavior">Behavior</string>
+    <string name="bt_text_behavior">Footer Behavior</string>
 </resources>

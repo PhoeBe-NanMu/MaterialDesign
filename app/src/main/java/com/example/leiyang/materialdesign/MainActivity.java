@@ -1,5 +1,6 @@
 package com.example.leiyang.materialdesign;
 
+import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
@@ -68,5 +69,40 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean isValidPassword(String editTextPasswordString){
         return editTextPasswordString.length() > 6;
+    }
+
+    public void floatAction(View view) {
+        Toast.makeText(this, "floatAction", Toast.LENGTH_SHORT).show();
+    }
+
+    public void btnListView(View view) {
+
+        Intent intent = new Intent(MainActivity.this,MyListViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnTabLayout(View view) {
+        Intent intent = new Intent(MainActivity.this,TabLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnDrawerLayout(View view) {
+        Intent intent = new Intent(MainActivity.this,DrawerLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnCoordinatorLayout(View view) {
+        Intent intent = new Intent(MainActivity.this,CoordinatorLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnCollapsingToolBarLayout(View view) {
+        Intent intent = new Intent(MainActivity.this,CollapsingToolBarLayoutActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnBehavior(View view) {
+        Intent intent = new Intent(MainActivity.this,MyFooterBehaviorActivity.class);
+        startActivity(intent);
     }
 }

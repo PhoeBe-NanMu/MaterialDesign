@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MyListViewActivity" />
+        <activity android:name=".ListActivityDemo" />
+        <activity android:name=".MyListViewDemo" />
+        <activity android:name=".TabLayoutActivity" />
+        <activity android:name=".DrawerLayoutActivity" />
+        <activity android:name=".CoordinatorLayoutActivity" />
+        <activity android:name=".CollapsingToolBarLayoutActivity" />
+        <activity android:name=".MyFooterBehaviorActivity"></activity>
     </application>
 
 </manifest>
